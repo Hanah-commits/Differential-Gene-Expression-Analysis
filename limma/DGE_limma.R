@@ -1,7 +1,5 @@
 library(edgeR)
 library(limma)
-library(jsonlite)
-library(dplyr)
 
 # sample names and replicate count
 tissue1 <- "ectodermalcell"
@@ -62,3 +60,4 @@ write.table(coef(fit),"logFC.csv",sep="\t", col.names = FALSE)
 top.genes <- topTable(fit, sort.by = "P", n = Inf)
 head(top.genes)
 length(which(top.genes$adj.P.Val < 0.05))
+
