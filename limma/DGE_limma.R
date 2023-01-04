@@ -1,5 +1,4 @@
 library(edgeR)
-library(limma)
 
 # sample names and replicate count
 tissue1 <- "ectodermalcell"

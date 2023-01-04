@@ -28,7 +28,7 @@ The reads of the differentially expressed gene take up most of the library. This
 calcNormFactors(object, method=c("TMM","RLE","upperquartile","none"))
 ```
 The normalization factor can be any one of the following:
-* TMM / trimmed mean of M-values
+* TMM / trimmed mean of M-values (default)
 * RLE / relative log expression
 * upperquartile
 * none: normalization factors are set to 1
