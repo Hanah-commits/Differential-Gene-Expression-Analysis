@@ -28,10 +28,12 @@ Most mitochondrial reads have low sequencing depth.
 ### Feature Selection
 
 ![](https://i.imgur.com/eFo5NQ8.png)
+
 Top 20 highly varible genes are labelled
 
 ### Ranking Principle Components using Elbow Plot
 ![](https://i.imgur.com/Vy3V1gG.png)
+
 Top 20 PCs were chosen.
 
 ### Cell Clusters Detected 
