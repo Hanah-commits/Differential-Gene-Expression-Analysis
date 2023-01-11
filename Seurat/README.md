@@ -18,9 +18,11 @@ install("hdf5r")
 ### Data Quality Before and After Filtering
 
 ![](https://i.imgur.com/hlaNGpt.png)
+
 Positive linear relationship between read depth and gene count.
 
 ![](https://i.imgur.com/KczFa9F.png)
+
 Most mitochondrial reads have low sequencing depth.
 
 ### Feature Selection
