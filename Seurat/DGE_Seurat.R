@@ -64,8 +64,8 @@ seurat <- RunUMAP(seurat, dims = 1:20)
 DimPlot(seurat, label = TRUE)
 
 # Find differentially expressed features across all clusters
-pbmc.markers = FindAllMarkers(object = seurat, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
-write.csv(pbmc.markers, file = "NSCLC_DEGs.csv")
+seurat.markers = FindAllMarkers(object = seurat, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+write.csv(seurat.markers, file = "NSCLC_DEGs.csv")
 saveRDS(seurat, file = "seurat_20kNSCLC.rds")
 
 
